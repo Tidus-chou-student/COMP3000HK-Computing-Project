@@ -1,4 +1,4 @@
-# COMP3000HK-Computing
-Title: Comparing Rule-Based and AST/Taint-Based Static Detection Strategies for Missing Security Controls and Malicious Code Patterns in PHP.
+# Comparing Rule-Based and AST/Taint-Based Static Detection Strategies for Missing Security Controls and Malicious Code Patterns in PHP.
+
 Project Vision:
 This project aims to empirically compare two static detection strategies — rule-based pattern matching and lightweight AST/taint-based analysis — on PHP source code, across two distinct detection tasks: identifying missing security controls (e.g., absent CSRF tokens, missing input sanitisation) and identifying existing malicious or dangerous code patterns (e.g., SQL injection sinks, hardcoded credentials). Performance will be quantified using precision, recall, and false positive/negative rates, and the practical security implications of observed error patterns will be discussed. PHP is chosen as the initial target language because of its prevalence in web applications; the design will allow extension to other languages if time permits.
